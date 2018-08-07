@@ -1,7 +1,7 @@
 puts "Hi, you've been invited to a party! What is your name?"
 guest_name = gets.chomp.capitalize
 
-puts "What is the party you have been invited to?"
+"What is the party you have been invited to?"
 party_name = "Best Halloween Party Ever"
 
 
