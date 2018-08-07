@@ -1,17 +1,28 @@
 puts "Hi, you've been invited to a party! What is your name?"
+
 guest_name = gets.chomp.capitalize
 
-"What is the party you have been invited to?"
-party_name = "Best Halloween Party Ever"
+puts "What is the party you have been invited to?"
 
+party_name = gets.chomp
 
-"What is the date of the party?"
-date = "October 31"
+puts "What is the date of the party?"
+
+date = gets.chomp
 
 "What time is the party at?"
-time = "6pm"
 
-"Who is hosting the party?"
-host_name = "Harry Potter"
+time = gets.chomp
 
-puts "Hi #{guest_name}, you've been invited to the #{party_name}. The party will be #{date} at #{time}. Hope to see you there! Please RSVP to #{host_name}."
+
+puts "Who is hosting the party?"
+
+host_name = gets.chomp
+
+puts "Dear #{name},"
+
+puts "You are invited to the #{party_name} on #{date} on #{time}. Please RSVP no later than October 30.
+
+Sincerely,
+
+#{
