@@ -14,7 +14,6 @@ date = gets.chomp
 
 time = gets.chomp
 
-
 puts "Who is hosting the party?"
 
 host_name = gets.chomp
