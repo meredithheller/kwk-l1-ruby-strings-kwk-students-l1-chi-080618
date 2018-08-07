@@ -25,4 +25,4 @@ puts "You are invited to the #{party_name} on #{date} on #{time}. Please RSVP no
 
 Sincerely,
 
-#{
+#{host_name}"
